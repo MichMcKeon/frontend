@@ -2,3 +2,33 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.primary-bkgd{
+    background-color:#003ca6;
+}
+.second-bkgd{
+    background-color: #4e90fe;
+}
+.black-bkgd{
+    background-color: black;
+}
+.white-bkgd{
+    background-color: white;
+}
+.grey-bkgd{
+    background-color: #e2e3e7;
+}
+.primary-font{
+    color:#003ca6;
+}
+.second-font{
+    color: #4e90fe;
+}
+.black-font{
+    color: black;
+}
+.white-font{
+    color: white;
+}
+.grey-font{
+    color: #e2e3e7;
+}

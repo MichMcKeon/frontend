@@ -7,7 +7,7 @@
       
     <div *ngFor="let clickitem of clickitem">
        
-        <div *ngIf="clickitem.Portal_Click_Show__r.Show_on_Route__c.includes(thisapproute)">
+        <div>
         
             <div *ngIf="clickitem.Show_Order__c == nextonclick && clickitem.is_End_of_Click_Show__c">
 
@@ -19,4 +19,3 @@
     <div class="container-fluid align-items-center" (click)="gonext()"> 
         <img src="{{clickitem.Image_path__c}}" class="{{clickitem.Portal_Click_Show__r.Click_Show_Size__c}}">
        </div></div></div></div></div>
-       
